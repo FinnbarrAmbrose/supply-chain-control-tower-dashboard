@@ -1,38 +1,27 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments and environment files
-venv/
+*.pyc
 .venv/
-.env/
+venv/
+.env
 
-# Jupyter Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# VS Code settings
-.vscode/
-
-# Distribution / packaging
-*.egg
-*.egg-info/
-dist/
-build/
-
-# Data directories (raw and processed)
-data/raw/
-data/processed/
-
-# Excel temporary files
-~$*.xlsx
-
-# Streamlit cache and session state
-.streamlit/
-
-# Logs and temporary files
-*.log
-
-# System files
+# OS
 .DS_Store
 Thumbs.db
+
+# Data (do not commit raw)
+data/raw/*
+!data/raw/.gitkeep
+
+# Optional: keep processed small; ignore if large
+# data/processed/*
+# !data/processed/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# Excel temp files
+~$*.xlsx
