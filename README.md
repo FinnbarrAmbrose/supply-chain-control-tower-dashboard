@@ -8,9 +8,49 @@ This project aims to build a **Supply Chain Control Tower Dashboard** that provi
 
 Supply chain teams often struggle to gain end‑to‑end visibility across shipping routes, delivery performance and customer satisfaction.  Disparate data sources and manual reporting processes make it difficult to track on‑time delivery rates, compare routes or identify delays.  This project addresses that gap by creating a **control tower** – a centralised dashboard that aggregates raw logistics data into meaningful KPIs and visualisations.  The goal is to empower a supply chain administrator/analyst to monitor operations, flag issues early and drive continuous improvement.
 
-## Dataset
 
-The project will leverage open supply chain and logistics datasets.  For example, the Kaggle **Transportation and Logistics Tracking Dataset** includes multiple tables covering on‑time delivery impact, routes by rating, customer ratings vs on‑time delivery and delivery times with and without congestion【952613837472296†screenshot】.  These datasets provide insights into route performance and delivery efficiency.  Additional publicly available datasets (e.g. port performance statistics or freight data) may be incorporated as the project evolves.
+## Business Context
+
+This project represents a **Supply Chain Control Tower** for a mid-sized **consumer electronics distributor** operating a global supply network.
+
+The company sources products from manufacturing plants across Asia and distributes into the UK and EU using a multimodal logistics network (sea, air, and road). The organisation works with global freight forwarders and operates a centralised warehouse and distribution model.
+
+### Products
+- Laptops  
+- Smartphones  
+- Tablets  
+- Accessories  
+- Networking equipment  
+
+### Supply Network
+- Manufacturing: China, Vietnam, Taiwan  
+- Export Ports: Shanghai, Shenzhen, Ho Chi Minh  
+- Import Ports: Rotterdam, Felixstowe, Hamburg  
+- Distribution: UK & EU regional distribution centres  
+
+### Business Objectives
+- Maintain high on-time delivery performance (>98%)
+- Control freight cost per order
+- Identify high-risk lanes and carriers
+- Detect operational exceptions early
+- Protect margin and service levels
+
+### Control Tower Purpose
+The control tower provides:
+- End-to-end shipment visibility
+- Service performance monitoring (SLA)
+- Operational risk detection
+- Exception management
+- Cost and margin exposure analysis
+- Scenario-based decision support
+
+---
+
+### About the Dataset
+
+The underlying dataset is a public logistics dataset containing coded identifiers (carrier codes, service codes, plant codes, customer IDs).
+
+To make the dashboard interpretable in a portfolio and interview context, a **representative business narrative and label mappings** are applied (without altering the underlying metrics or calculations). This reflects standard industry practice for analytics demos and control tower prototypes.
 
 ## Key Performance Indicators (KPIs)
 
