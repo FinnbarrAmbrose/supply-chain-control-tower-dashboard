@@ -1,0 +1,5 @@
+scenario,fuel_increase,port_congestion,total_freight_cost_est,on_time_rate_est
+Baseline,0.0,0.0,73664.4296173686,0.9791644058600109
+Fuel +10% (cost +7%),0.1,0.0,78820.9396905844,0.9791644058600109
+Port congestion +20% (OT -2pp),0.0,0.2,74401.07391354229,0.9591644058600108
+"Capacity constraint (OT -1pp, cost +3%)",0.0,0.0,75874.36250588966,0.9691644058600108
