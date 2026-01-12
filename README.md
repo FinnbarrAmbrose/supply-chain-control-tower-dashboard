@@ -40,19 +40,19 @@ The dashboard is designed to feel like a professional command centre used by glo
 Screenshots can be added to the `/screenshots` folder.
 
 ### Executive Summary — Control Tower Overview
-![Executive Summary](screenshots/executive_summary.png)
+![Executive Summary](./screenshots/executive_summary.png)
 
 ### Risk & Exceptions — Operational Radar
-![Risk Radar](screenshots/risk_radar.png)
+![Risk Radar](./screenshots/risk_radar.png)
 
 ### Performance Drivers — Root Cause Analysis
-![Performance Drivers](screenshots/performance_drivers.png)
+![Performance Drivers](./screenshots/performance_drivers.png)
 
 ### Action Queue — Operations Triage
-![Action Queue](screenshots/action_queue.png)
+![Action Queue](./screenshots/action_queue.png)
 
 ### Control Panel — Interactive Filters
-![Control Panel](screenshots/control_panel.png)
+![Control Panel](./screenshots/control_panel.png)
 
 ---
 
